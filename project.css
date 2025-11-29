@@ -1,0 +1,898 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    height: 20vh;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    
+}
+.bnr{
+    width: 100%;
+    height: 85vh;
+    top: -65px;
+    left: 0px;
+    position: absolute;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+    padding-left: 20px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.menu{
+    display: flex;
+    gap: 25px;
+}
+.icon{
+    font-size: 30px;
+    display: flex;
+    gap: 15px;
+    padding-right: 40px;
+}
+nav:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.312),rgba(255, 255, 255, 0.644));
+    
+}
+.first{
+    padding-top: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.first h1{
+    font-size: 100px;
+    padding-top: 150px;
+}
+.first p{
+    font-size: 30px;
+    padding-top: 30px;
+}
+.bnr2{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+.bnr2 img{
+    width: 90%;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.layer{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+.layer:hover{
+    background-color: rgba(0, 0, 0, 0.382);
+}
+.con1{
+    position: absolute;
+    top: 40%;
+    left: 150px;
+    width: 50%;
+}
+.con1 h1{
+    font-size: 50px;
+    color: white;
+}
+.con1 p{
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.con1 button{
+    font-size: 25px;
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    border-radius: 40%;
+    border: 2px solid white;
+}
+.con1 button:hover{
+    border: 2px solid brown;
+}
+.con1 button .fa-angle-right:hover{
+    color: brown;
+}
+.second{
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second h1{
+    font-size: 80px;
+}
+.second p{
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.cards{
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.matter1{
+    position: absolute;
+    top: 75%;
+    left: 20px;
+    color: white;
+}
+.matter1 h1{
+    font-size: 48px;
+}
+.matter1 p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.card1 img{
+    width: 100%;
+    height: 100%;
+    transition: transform 3s ease;
+}
+.card1:hover img{
+    transform: scale(1.4);
+}
+.card2{
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.matter2{
+    position: absolute;
+    top: 75%;
+    left: 20px;
+    color: white;
+}
+.matter2 h1{
+    font-size: 48px;
+}
+.matter2 p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.card2 img{
+    width: 100%;
+    height: 100%;
+    transition: transform 3s ease;
+}
+.card2:hover img{
+    transform: scale(1.4);
+}
+.card3{
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.matter3{
+    position: absolute;
+    top: 75%;
+    left: 20px;
+    color: white;
+}
+.matter3 h1{
+    font-size: 48px;
+}
+.matter3 p{
+    font-size: 25px;
+    padding-top: 30px;
+}
+.card3 img{
+    width: 100%;
+    height: 100%;
+    transition: transform 3s ease;
+}
+.card3:hover img{
+    transform: scale(1.4);
+}
+.cover{
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+    position: relative;
+    opacity: 0.9;
+}
+.front{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    padding-left: 220px;
+    padding-top: 80px;
+    color: white;
+}
+.left h1{
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+.left p{
+    font-size: 25px;
+}
+.right{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+}
+.right .img1{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.right .img1 p{
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    color: rgb(137, 133, 133);
+    font-size: 40px;
+    transition: transform 2s ease;
+}
+.img1:hover p{
+    transform: translateY(-40px);
+    color: white;
+}
+.right .img2{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.right .img2 p{
+    position: absolute;
+    top: 90%;
+    left: 16%;
+    color: rgb(137, 133, 133);
+    font-size: 40px;
+    transition: transform 2s ease;
+}
+.img2:hover p{
+    transform: translateY(-40px);
+    color: white;
+}
+.right .img1 img,
+.right .img2 img {
+    width: 100%;
+    transition: transform 3s ease;
+}
+
+.img1:hover img,
+.img2:hover img {
+    transform: scale(1.2);
+}
+.events{
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events h1{
+    font-size: 80px;
+}
+.events p{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.frames{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;   
+}
+.frames .img7,.img8,.img9,.img10{
+    width: 23%;
+    overflow: hidden;
+    position: relative;
+}
+.frames p{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    color: white;
+    font-size: 40px;
+    transition: transform 1s ease;
+}
+.img7:hover p{
+    transform: translateY(40px);
+}
+.frames span{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    color: rgb(208, 149, 53);
+    font-size: 50px;
+    transition: transform 1s ease;
+}
+.img7:hover span{
+    transform: translateY(40px);
+}
+.frames h3{
+    position: absolute;
+    top: 80%;
+    left: 70px;
+    color: white;
+    font-size: 35px;
+    transition: transform 1s ease;
+}
+.img7 img{
+    width: 100%;
+    transition: transform 3s ease;
+}
+.img7:hover img{
+    transform: scale(1.2);
+}
+.img7:hover h3{
+    transform: translateY(-40px);
+}
+.img8 img{
+    width: 100%;
+    transition: transform 3s ease;
+}
+.img8:hover p{
+    transform: translateY(40px);
+}
+.img8:hover span{
+    transform: translateY(40px);
+}
+.img8:hover h3{
+    transform: translateY(-40px);
+}
+.img8:hover img{
+    transform: scale(1.2);
+}
+.img9 img{
+    width: 100%;
+    transition: transform 3s ease;
+}
+.img9:hover p{
+    transform: translateY(40px);
+}
+.img9:hover span{
+    transform: translateY(40px);
+}
+.img9:hover h3{
+    transform: translateY(-40px);
+}
+.img9:hover img{
+    transform: scale(1.2);
+}
+.img10 img{
+    width: 100%;
+    transition: transform 3s ease;
+}
+.img10:hover p{
+    transform: translateY(40px);
+}
+.img10:hover span{
+    transform: translateY(40px);
+}
+.img10:hover h3{
+    transform: translateY(-40px);
+}
+.img10:hover img{
+    transform: scale(1.2);
+}
+.bgr{
+    height: 90vh;
+    background-image: url(img11.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.7;
+    
+}
+.bgr img{
+    width: 100%;
+    height: 100%;
+}
+.para1{
+    padding-top: 200px;
+    padding-left: 35%;
+}
+.para1 h1{
+    font-size: 70px;
+}
+.para1 p{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.para2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.para2 h1{
+    font-size: 60px;
+}
+.para2 p{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.para2 button{
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 40%;
+    border: 2px solid white;
+}
+.pop{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pop h1{
+    font-size: 50px;
+}
+.pop p{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+.broch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.broch h1{
+    font-size: 70px;
+}
+.broch p{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.wayan{
+    width: 100%;
+    display: flex;
+}
+.waya{
+    width: 40%;
+}
+.waya img{
+    width: 90%;
+}
+.way{
+    width: 60%;
+}
+.way h1{
+    font-size: 50px;
+}
+.way p{
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.way button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 40%;
+}
+.photo{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo h1{
+    font-size: 70px;
+}
+.photo p{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.pht1{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+}
+.pht1 img{
+    width: 90%;
+    height: 100%;
+    padding: 5%;
+}
+.layer4{
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding:90px;
+}
+.layer4 h1{
+    font-size: 50px;
+}
+.layer4 p{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.layer4 button{
+    font-size: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 40%;
+}
+footer{
+    padding-top: 100px;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-bottom: 2px solid rgba(205, 220, 235, 0.798);
+    
+}
+footer a{
+    text-decoration: none;
+    color: rgba(205, 220, 235, 0.798);
+    font-size: 25px;
+}
+.foot1,.foot2,.foot3,.foot4,.foot5,.foot6{
+    display: flex;
+    flex-direction: column;
+}
+.foot1,.foot2,.foot3,.foot4,.foot5,.foot6{
+    color: rgba(205, 220, 235, 0.798);
+}
+.end{
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+}
+.end1 a{
+    text-decoration: none;
+    color: rgba(205, 220, 235, 0.798);
+}
+.end1{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 25px;
+    gap: 20px;
+}
+.end1 a:hover{
+    color: rgb(206, 151, 49);
+}
+.end2{
+    width: 100%;
+    color: rgba(205, 220, 235, 0.798);
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.end2 .icn1{
+    font-size: 22px;
+}
+.end2 .icn2{
+    font-size: 30px;
+    display: flex;
+    gap: 25px;
+    color: gray;
+}
+.fa-facebook-f{
+    border-radius: 50%;
+    border: 1px solid rgba(205, 220, 235, 0.798);
+    padding: 15px;
+}
+.fa-x-twitter{
+    border-radius: 50%;
+    border: 1px solid rgba(205, 220, 235, 0.798);
+    padding: 15px;
+}
+.fa-youtube{
+    border-radius: 50%;
+    border: 1px solid rgba(205, 220, 235, 0.798);
+    padding: 15px;
+}
+.fa-instagram{
+    border-radius: 50%;
+    border: 1px solid rgba(205, 220, 235, 0.798);
+    padding: 15px;
+}
+.fa-whatsapp{
+    border-radius: 50%;
+    border: 1px solid rgba(205, 220, 235, 0.798);
+    padding: 15px;
+}
+.fa-pinterest{
+    border-radius: 50%;
+    border: 1px solid rgba(205, 220, 235, 0.798);
+    padding: 15px;
+}
+.fa-linkedin{
+    border-radius: 50%;
+    border: 1px solid rgba(205, 220, 235, 0.798);
+    padding: 15px;
+}
+.fa-facebook-f:hover{
+    color: rgb(206, 151, 49);
+    border: 1px solid rgb(206, 151, 49);
+}
+.fa-x-twitter:hover{
+    color: rgb(206, 151, 49);
+    border: 1px solid rgb(206, 151, 49);
+}
+.fa-youtube:hover{
+    color: rgb(206, 151, 49);
+    border: 1px solid rgb(206, 151, 49);
+}
+.fa-instagram:hover{
+    color: rgb(206, 151, 49);
+    border: 1px solid rgb(206, 151, 49);
+}
+.fa-whatsapp:hover{
+    color: rgb(206, 151, 49);
+    border: 1px solid rgb(206, 151, 49);
+}
+.fa-pinterest:hover{
+    color: rgb(206, 151, 49);
+    border: 1px solid rgb(206, 151, 49);
+    
+}
+.fa-linkedin:hover{
+    color: rgb(206, 151, 49);
+    border: 1px solid rgb(206, 151, 49);
+    
+}
+footer a:hover {
+    color: rgb(206, 151, 49);
+}
+button:hover{
+    color: rgb(230, 157, 21);
+    border: 2px solid rgb(230, 157, 21);
+}
+
+
+/* -------------------------
+   MOBILE DEVICES (Phones)
+---------------------------*/
+@media (max-width: 767px) {
+
+    nav {
+        height: auto;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .logo {
+        width: 120px;
+        height: 80px;
+        padding-left: 0;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu a {
+        font-size: 18px;
+    }
+
+    .icon {
+        font-size: 25px;
+        padding-right: 20px;
+    }
+
+    .bnr, .bnr2 {
+        height: 60vh;
+    }
+
+    .first h1 {
+        font-size: 50px;
+        padding-top: 100px;
+    }
+
+    .first p {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+
+    .cards {
+        flex-direction: column;
+        height: auto;
+        padding-top: 50px;
+        gap: 20px;
+    }
+
+    .card1, .card2, .card3 {
+        width: 90%;
+        height: auto;
+    }
+
+    .cover {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .left {
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .right {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .frames {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 50px;
+        gap: 20px;
+    }
+
+    .para1 {
+        padding-left: 10%;
+        text-align: center;
+    }
+
+    .para2, .pop, .broch, .photo {
+        padding: 20px;
+    }
+
+    .wayan {
+        flex-direction: column;
+    }
+
+    .way, .waya {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 20px;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .end2 {
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 20px;
+    }
+}
+
+/* -------------------------
+   TABLETS / SMALL LAPTOPS
+---------------------------*/
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    nav {
+        height: 15vh;
+    }
+
+    .logo {
+        width: 140px;
+        height: 90px;
+    }
+
+    .menu a {
+        font-size: 22px;
+    }
+
+    .icon {
+        font-size: 28px;
+    }
+
+    .bnr, .bnr2 {
+        height: 70vh;
+    }
+
+    .first h1 {
+        font-size: 70px;
+    }
+
+    .first p {
+        font-size: 25px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+    }
+
+    .card1, .card2, .card3 {
+        width: 45%;
+        height: auto;
+    }
+
+    .cover {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .left, .right {
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .frames {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        height: auto;
+    }
+
+    .para1 {
+        padding-left: 20%;
+    }
+
+    .wayan {
+        flex-direction: column;
+    }
+
+    .way, .waya {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+/* -------------------------
+   LARGE SCREENS (Desktop defaults already exist)
+---------------------------*/
+@media (min-width: 1200px) {
+    /* Your original CSS handles large desktops */
+}
+
